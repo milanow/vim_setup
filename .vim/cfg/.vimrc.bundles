@@ -1,0 +1,20 @@
+filetype off
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
+
+Bundle 'taglist.vim'
+Bundle 'a.vim'
+Bundle 'winmanager'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'tomasr/molokai'
+Bundle 'bufexplorer.zip'
+Bundle 'easygrep'
+Bundle 'kien/ctrlp.vim'
+Bundle 'vim-airline/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
+Bundle 'Valloric/YouCompleteMe'
+
+call vundle#end()
+
